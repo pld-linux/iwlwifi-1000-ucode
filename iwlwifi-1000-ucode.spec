@@ -1,9 +1,10 @@
+# NOTE: currently it's included in linux-firmware.spec
 Summary:	Microcode image for Intel Wireless WiFi Link 1000BGN Adapter
 Summary(pl.UTF-8):	Obraz mikrokodu dla układów bezprzewodowych Intel Wireless WiFi Link 1000BGN
 %define	_module	1000
 Name:		iwlwifi-%{_module}-ucode
 Version:	39.31.5.1
-Release:	1
+Release:	1.1
 Epoch:		1
 License:	distributable
 Group:		Base/Kernel
